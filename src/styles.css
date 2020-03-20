@@ -1,0 +1,119 @@
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+body{
+    background-color: #d3d8d8;
+    background: url(https://live.staticflickr.com/4091/5198322063_d7e7c1801e_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400%;
+    margin: auto;
+    width: 950px;
+}
+
+.jumbotron {
+    background-color: #aa3a4d;
+    text-align: center;
+}
+
+
+
+#happy{
+    background-image: url(https://cdn.discordapp.com/attachments/651919470155137025/689193633143848964/20200316010531_1.jpg);
+    width: 800px;
+    height: 500px;
+    background-size: cover;
+    border: 1px solid;
+    border-color: coral;
+    box-shadow: 2px 3px 10px black;
+}
+
+#game{
+    display:none;
+    width: 1000;
+    /* background-color: #999393; */
+}
+
+#goodfinal, #badfinal, #textfood, #textsleep, #textplay{
+    display: none;
+    margin: 5%;
+}
+
+#unhappy{
+    background-image: url(https://cdn.discordapp.com/attachments/651919470155137025/688886966057566226/unknown.png);
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-size: cover;
+    border: 1px solid;
+    border-color: coral;
+    box-shadow: 2px 3px 10px black;
+}
+
+#dead{
+    background-image: url(https://cdn.discordapp.com/attachments/651919470155137025/689193913549979662/20200316011109_1.jpg);
+    display: none;
+    width: 800px;
+    height: 500px;
+    background-size: cover;
+    border: 1px solid;
+    border-color: coral;
+    box-shadow: 2px 3px 10px black;
+}
+
+#picture{
+    padding: 5px;
+    margin: 5px;
+    width: 800px;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#screens{
+    height: 60px;
+    width: 400x;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.screen {
+    
+    width: 160px;
+    height: 50px;
+    margin: 20px;
+    font-size: 30px;
+
+}
+
+#buttons{
+    margin-left: 25%;
+    color: red;
+}
+
+button {
+    background-color: #995989;
+    border: 1px solid;
+    border-color: #6e6b9c;
+    border-radius: 50%;
+    box-shadow: 2px 3px 10px black;
+}
+
+.container2 {
+    background-color: rgb(122, 197, 147);
+    border: 1px solid;
+    border-color: #6e6b9c;
+    box-shadow: 2px 3px 10px black;
+}
+
+
+button:active {
+    background-color: green;
+}
